@@ -1,0 +1,13 @@
+surgical_tool:
+  origin:
+    xyz: 0 0 0.04 # 质心
+    rpy: 0 0 0
+  mass: 0.3
+  inertia:
+    xx: 0.000001
+    yy: 0.000001
+    zz: 0.000001
+    xy: 0
+    xz: 0
+    yz: 0
+

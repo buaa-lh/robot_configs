@@ -1,0 +1,10 @@
+# Default initial positions for med7's ros2_control fake system
+
+initial_positions:
+  med7_A1: 0
+  med7_A2: 0
+  med7_A3: 0
+  med7_A4: 0
+  med7_A5: 0
+  med7_A6: 0
+  med7_A7: 0

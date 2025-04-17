@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="med7_ros2_control" params="name initial_positions_file">
+        <xacro:property name="initial_positions" value="${xacro.load_yaml(initial_positions_file)['initial_positions']}"/>
+
+        <ros2_control name="${name}" type="system">
+            <hardware>
+                <!-- By default, set up controllers for simulation. This won't work on real hardware -->
+                <plugin>mock_components/GenericSystem</plugin>
+            </hardware>
+            <joint name="med7_A1">
+            </joint>
+            <joint name="med7_A2">
+            </joint>
+            <joint name="med7_A3">
+            </joint>
+            <joint name="med7_A4">
+            </joint>
+            <joint name="med7_A5">
+            </joint>
+            <joint name="med7_A6">
+            </joint>
+            <joint name="med7_A7">
+            </joint>
+
+        </ros2_control>
+    </xacro:macro>
+</robot>

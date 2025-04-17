@@ -1,0 +1,23 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: ""
+    relative_path: /home/wjc/Desktop/med7.urdf
+  srdf:
+    relative_path: config/med7.srdf
+  package_settings:
+    author_name: buaalh
+    author_email: buaalh@buaa.edu.cn
+    generated_timestamp: 1744202975
+  control_xacro:
+    command:
+      []
+    state:
+      []
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      []
+    state:
+      []
